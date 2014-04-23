@@ -1,0 +1,13 @@
+<li>
+	{{#ifCond type 'title'}}{{title}}{{/ifCond}}
+	
+	{{#ifCond type 'navigation'}}<a href="{{value}}">{{title}}</a>{{/ifCond}}
+	
+	{{#ifCond type 'event'}}<a href="#" id="{{value}}">{{title}}</a>{{/ifCond}}
+	
+	{{#if navigation}}
+	<ul>
+		{{&navigationHelper navigation}}
+	</ul>
+	{{/if}}
+</li>
