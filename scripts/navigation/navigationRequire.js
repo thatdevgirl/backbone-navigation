@@ -2,7 +2,7 @@ require.config({
 	'baseUrl': 'scripts/',
 	
     'paths': { 
-    	'jquery': 'lib/jquery-1.11.0.min',
+    	'jquery': 'lib/jquery-1.12.4.min',
 		'underscore': 'lib/underscore-min',
 		'backbone': 'lib/backbone-min',
 		'handlebars': 'lib/handlebars',
